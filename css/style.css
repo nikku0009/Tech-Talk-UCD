@@ -421,7 +421,7 @@ li a {
 }
 
 .popup {
-  margin: 30px auto;
+  margin: 20px auto;
   padding: 20px;
   background:#171717;;
   border-radius: 5px;
@@ -430,7 +430,7 @@ li a {
   position: relative;
   transition: all 5s ease-in-out;
   border-radius: 20px;
-  top: 70px;
+  top: -10px;
 
 }
 
@@ -657,119 +657,7 @@ li a {
   z-index: 1000;
 }
 
-.popup {
-  margin: 70px auto;
-  padding: 20px;
-  background:#171717;;
-  border-radius: 5px;
-  width: 350px;
-  height: 400px;
-  position: relative;
-  transition: all 5s ease-in-out;
-  border-radius: 20px;
-  top: 70px;
 
-}
-
-.popup .ping-me h2 {
-  color: #FFFFFF;;
-  font-size: 50px;
-  text-align: center;
-  margin: 10px auto;
-  padding-top: 60px;
-}
-.popup .close {
-  position: absolute;
-  top: 10px;
-  right: 20px;
-    transition: all 200ms;
-    font-size: 30px;
-    font-weight: bold;
-    text-decoration: none;
-    color: #D7DAEB;
-  
-}
-.popup .close:hover {
-  color: #D7DAEB;
-}
-.popup .content {
-  max-height: 30%;
-  overflow: auto;
-}
-
-.popup .ping-me{
-  
-  
-  width: 100%;
-  margin: auto auto;
-  height: 50%;
-  background: linear-gradient(90deg, #667EEA 0%, #764BA2 100%);
-  box-shadow: 17px 40px 50px rgba(0, 0, 0, 0.25);
-  border-radius: 20px;
-  position: relative;
-  top: 20px;
-}
-
-.circle-empty2{
-  height: 25px;
-    width: 25px;
-    border: 3px solid #D7DAEB;
-    border-radius: 50%;
-    margin-left: 25px;
-    display: inline-block;
-    margin-top: 50px;
-    position: relative;
-    top: 10px;
-    right: -50px;
-
-}
-
-/* Form input css */
-
-
-
-.text-center{
-  color:#fff; 
-  text-transform:uppercase;
-    font-size: 23px;
-    margin: -50px 0 80px 0;
-    display: block;
-    text-align: center;
-}
-
-.input-container{
-  position: relative;
-  top: 50px;
-}
-.input-container label{
-  position:absolute;
-  top:0px;
-  left:0px;
-  font-size:16px;
-  color:#fff; 
-    pointer-event:none;
-  transition: all 0.5s ease-in-out;
-}
-.input-container input{
-  border:0;
-  border-bottom:1px solid #555;  
-  background:transparent;
-  width:300px;
-  padding:8px;
-  font-size:16px;
-  background:#FAFAFA;
-  padding: 10px;
-  border-radius:20px;
-  position: relative;
-  top: 20px;
-  left: 4px;
-
-}
-.input-container input:focus{ 
-   border:none; 
-  outline:none;
-  border-bottom:1px solid #764BA2;  
-}
 
 
 .btn{
