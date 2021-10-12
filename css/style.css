@@ -1058,7 +1058,7 @@ html,body{
 }
 
 .popup {
-  margin: 10px auto;
+  margin: 0 auto;
   padding: 20px;
   background:#171717;;
   border-radius: 5px;
@@ -1067,7 +1067,7 @@ html,body{
   position: relative;
   transition: all 5s ease-in-out;
   border-radius: 20px;
-  top: 30px;
+  top: 10px;
 
 }
 
@@ -1170,7 +1170,6 @@ html,body{
   outline:none;
   border-bottom:1px solid #764BA2;  
 }
-
 
 .btn{
   color:#fff;
