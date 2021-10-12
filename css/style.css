@@ -377,7 +377,7 @@ li {
 
 li a {
   display: block;
-  padding: 20px 8px;
+  padding: 20px 30px;
   text-align: center;
 }
 
@@ -593,7 +593,7 @@ li a {
 
   .timeline-container {
     max-width: 90%;
-    margin-left: 8px;
+    margin-left: 20px;
   }
 
   .timeline-container .event .event-date {
@@ -627,9 +627,13 @@ li a {
   font-size: 1.3rem;
 }
 .staytuned ul li{
-  float: right;
+  float: left;
   margin-right: 20px;
-  padding-right: 20px;
+  padding-right: 40px;
+}
+
+.staytuned ul{
+  float: left;
 }
 
 .hiddentab{
