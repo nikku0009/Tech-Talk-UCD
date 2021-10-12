@@ -421,16 +421,16 @@ li a {
 }
 
 .popup {
-  margin: 20px auto;
-  padding: 20px;
+  margin: 10px auto;
+  padding: 5px 20px;
   background:#171717;;
   border-radius: 5px;
   width: 350px;
-  height: 400px;
+  height: 370px;
   position: relative;
   transition: all 5s ease-in-out;
   border-radius: 20px;
-  top: -10px;
+  top: 0px;
 
 }
 
@@ -502,7 +502,7 @@ li a {
 
 .input-container{
   position: relative;
-  top: 50px;
+  top: 25px;
 }
 .input-container label{
   position:absolute;
@@ -510,7 +510,7 @@ li a {
   left:0px;
   font-size:16px;
   color:#fff; 
-    pointer-event:none;
+  pointer-event:none;
   transition: all 0.5s ease-in-out;
 }
 .input-container input{
@@ -533,6 +533,7 @@ li a {
   outline:none;
   border-bottom:1px solid #764BA2;  
 }
+
 
 
 .btn{
